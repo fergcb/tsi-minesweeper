@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Use Java 18" />
+    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Remove public qualifiers from JUnit tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Grid.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658755489820</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Remove public qualifiers from JUnit tests">
+      <created>1658755956494</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658755956494</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +263,8 @@
     <MESSAGE value="Organize fields" />
     <MESSAGE value="Invert grid bounds check" />
     <MESSAGE value="Use Java 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use Java 18" />
+    <MESSAGE value="Remove public qualifiers from JUnit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove public qualifiers from JUnit tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

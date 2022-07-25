@@ -1,6 +1,10 @@
 package uk.fergcb.minesweeper;
 
 public class Text {
+
+    private Text() {
+        throw new IllegalStateException("Text is a utility class and should not be instantiated.");
+    }
     private static final String ANSI_BLACK = "\u001b[30m";
     private static final String ANSI_RED = "\u001b[31m";
     private static final String ANSI_GREEN = "\u001b[32m";
