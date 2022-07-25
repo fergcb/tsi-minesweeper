@@ -77,7 +77,7 @@ public class Grid {
                 if (xo == 0 && yo == 0) continue;
                 int xx = x + xo;
                 int yy = y + yo;
-                if (!isInBounds(xx, yy)) continue;
+                if (isOutOfBounds(xx, yy)) continue;
                 Point pos = new Point(xx, yy);
                 points.add(pos);
             }
@@ -86,13 +86,13 @@ public class Grid {
     }
 
     /**
-     * Check whether a given point is on the grid
+     * Check whether a given point is outside the grid
      * @param x The x-coordinate of the tile to check
      * @param y The y-coordinate of the tile to check
-     * @return true if the point is on the grid, else false
+     * @return true if the point is not on the grid, else false
      */
-    public boolean isInBounds(int x, int y) {
-        return x >= 0 && y >= 0 && x < width && y < width;
+    public boolean isOutOfBounds(int x, int y) {
+        return x < 0 || y < 0 || x >= width || y >= width;
     }
 
     /**

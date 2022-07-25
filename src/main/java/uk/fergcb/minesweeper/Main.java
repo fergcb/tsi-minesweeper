@@ -85,7 +85,7 @@ public class Main {
             }
 
             move = Coords.parseMove(moveString);
-            if (!grid.isInBounds(move.x(), move.y())) {
+            if (grid.isOutOfBounds(move.x(), move.y())) {
                 System.out.println("Invalid move. The coordinates you entered aren't on the grid.");
                 continue;
             }
