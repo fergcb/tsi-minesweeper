@@ -1,7 +1,8 @@
 package uk.fergcb.minesweeper;
 
-import javax.swing.*;
-import java.awt.Point;
+import java.awt.*;
+import java.util.List;
+import java.util.Queue;
 import java.util.*;
 
 public class Grid {
