@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Coords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Difficulty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/UserScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/fergcb/minesweeper/CoordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/fergcb/minesweeper/TileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/fergcb/minesweeper/UserScannerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/UserScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/UserScanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +34,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2BnJGGito8fLB5yzXyjF02cEJ5P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,16 +50,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Fergus/Documents/Work/Java/tsi-minesweeper",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="uk.fergcb.minesweeper" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in tsi-minesweeper">
+    <configuration name="uk.fergcb.minesweeper.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uk.fergcb.minesweeper.Main" />
       <module name="Minesweeper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uk.fergcb.minesweeper.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,9 +76,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in tsi-minesweeper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tsi-minesweeper" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tsi-minesweeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.fergcb.minesweeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.fergcb.minesweeper" />
+      <option name="MAIN_CLASS_NAME" value="uk.fergcb.minesweeper.CoordsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserScannerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tsi-minesweeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.fergcb.minesweeper" />
+      <option name="MAIN_CLASS_NAME" value="uk.fergcb.minesweeper.UserScannerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in tsi-minesweeper" />
+        <item itemvalue="JUnit.CoordsTest" />
+        <item itemvalue="JUnit.UserScannerTest" />
+        <item itemvalue="Application.uk.fergcb.minesweeper.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -92,5 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

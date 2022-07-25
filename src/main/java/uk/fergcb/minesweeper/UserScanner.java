@@ -15,26 +15,6 @@ public class UserScanner {
         this(System.in);
     }
 
-    public void close() {
-        scanner.close();
-    }
-
-    /**
-     * Check whether a string can be converted into an integer
-     *
-     * @param string The string to parse
-     * @return true if the string can be converted into an integer, else false
-     */
-    public static boolean isValidInt(String string) {
-        int value;
-        try {
-            value = Integer.parseInt(string);
-        } catch (NullPointerException | NumberFormatException ex) {
-            return false;
-        }
-        return value > 0;
-    }
-
     /**
      * Read a line from the scanner and normalise it
      *
