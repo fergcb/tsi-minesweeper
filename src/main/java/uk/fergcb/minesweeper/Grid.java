@@ -15,7 +15,6 @@ public class Grid {
     private final Tile[][] tiles;
 
     public boolean gameOver, gameWon;
-    private int revealedCount;
 
     public Grid(int width, int height, int mineCount) {
         this.width = width;
