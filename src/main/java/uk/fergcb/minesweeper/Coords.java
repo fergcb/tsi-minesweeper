@@ -33,9 +33,7 @@ public class Coords {
         // The first two characters must be base 36 digits
         if (!isBase36(moveString.charAt(0)) || !isBase36(moveString.charAt(1))) return false;
         // The third character must be 'F', if present
-        if (moveString.length() > 2 && moveString.charAt(2) != 'F') return false;
-
-        return true;
+        return moveString.length() <= 2 || moveString.charAt(2) == 'F';
     }
 
     /**
