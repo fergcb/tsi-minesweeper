@@ -5,6 +5,10 @@ package uk.fergcb.minesweeper;
  */
 public class Coords {
 
+    private Coords() {
+        throw new IllegalStateException("Coords is a utility class and should not be instantiated.");
+    }
+
     /**
      * Take a move input by the user and parse it into a Move object.
      * @param moveString The move entered by the user
