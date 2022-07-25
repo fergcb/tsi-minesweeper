@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CoordsTest {
+class CoordsTest {
     @Test
     void parseMove_parses_valid_move() {
         String input = "A5";

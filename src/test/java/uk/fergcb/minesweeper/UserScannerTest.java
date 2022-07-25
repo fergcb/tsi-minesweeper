@@ -7,7 +7,7 @@ import java.io.InputStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class UserScannerTest {
+class UserScannerTest {
     @Test
     void takeLine_takes_a_line() {
         String input = """

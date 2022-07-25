@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Invert grid bounds check">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Use Java 18" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +44,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Fergus/Documents/Work/Java/tsi-minesweeper",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -215,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658754460929</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Use Java 18">
+      <created>1658755472166</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658755472166</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Use Java 18">
+      <created>1658755489820</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658755489820</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,7 +252,8 @@
     <MESSAGE value="Simplify if/else in isValidMove" />
     <MESSAGE value="Organize fields" />
     <MESSAGE value="Invert grid bounds check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Invert grid bounds check" />
+    <MESSAGE value="Use Java 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use Java 18" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
