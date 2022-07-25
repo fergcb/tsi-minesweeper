@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Simplify if/else in isValidMove" />
+    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Invert grid bounds check">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/fergcb/minesweeper/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,10 +59,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in tsi-minesweeper">
+  <component name="RunManager" selected="Application.uk.fergcb.minesweeper.Main">
     <configuration name="uk.fergcb.minesweeper.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="uk.fergcb.minesweeper.Main" />
-      <module name="Minesweeper" />
+      <module name="tsi-minesweeper" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
@@ -107,10 +115,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.uk.fergcb.minesweeper.Main" />
         <item itemvalue="JUnit.All in tsi-minesweeper" />
         <item itemvalue="JUnit.CoordsTest" />
         <item itemvalue="JUnit.UserScannerTest" />
-        <item itemvalue="Application.uk.fergcb.minesweeper.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658753974074</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Organize fields">
+      <created>1658754409380</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658754409380</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Invert grid bounds check">
+      <created>1658754460929</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658754460929</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +239,9 @@
     <MESSAGE value="Add private Coords constructor" />
     <MESSAGE value="Optimize imports" />
     <MESSAGE value="Simplify if/else in isValidMove" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplify if/else in isValidMove" />
+    <MESSAGE value="Organize fields" />
+    <MESSAGE value="Invert grid bounds check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Invert grid bounds check" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
