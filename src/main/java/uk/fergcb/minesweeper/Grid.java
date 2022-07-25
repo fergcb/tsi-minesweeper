@@ -5,6 +5,7 @@ import java.awt.Point;
 import java.util.*;
 
 public class Grid {
+    private static final Random random = new Random();
 
     private static final String MINE = "@";
     private static final String HIDDEN = "#";
@@ -32,8 +33,6 @@ public class Grid {
      *  according to the parameters set in the constructor.
      */
     private void generate() {
-        Random random = new Random();
-
         // Generate the mine locations
         List<Point> minePositions = new ArrayList<>();
         while(minePositions.size() < mineCount) {

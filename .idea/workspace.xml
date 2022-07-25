@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Use java 17 for sonar build" />
+    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Remove unused field" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658753332807</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Remove unused field">
+      <created>1658753628651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753628651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +177,8 @@
     <MESSAGE value="Add sonarcloud config" />
     <MESSAGE value="Fix sonar target branch" />
     <MESSAGE value="Use java 17 for sonar build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use java 17 for sonar build" />
+    <MESSAGE value="Remove unused field" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused field" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
