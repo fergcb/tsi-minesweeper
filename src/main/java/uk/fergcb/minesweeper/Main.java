@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Please select a difficulty mode:");
         for (Difficulty difficulty : Difficulty.values()) {
             System.out.printf(
-                    "%s (%d x %d, %d mines)\n",
+                    "%s (%d x %d, %d mines)%n",
                     difficulty.consoleName, difficulty.getWidth(), difficulty.getHeight(), difficulty.getMineCount()
             );
         }
@@ -55,7 +55,7 @@ public class Main {
 
         int currentRound = 1;
         do {
-            System.out.printf("== Round #%d ==\n", currentRound++);
+            System.out.printf("== Round #%d ==%n", currentRound++);
             grid.prettyPrint(false);
             Move move = getPlayerMove(grid);
             if (move.shouldFlag()) grid.flag(move.x(), move.y());
