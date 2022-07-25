@@ -8,7 +8,8 @@ public class Tile {
     public final boolean isMine;
     public final int adjacentMines;
 
-    private boolean isFlagged, isHidden;
+    private boolean isFlagged;
+    private boolean isHidden;
 
     public Tile (boolean isMine, int adjacentMines) {
         this.isMine = isMine;

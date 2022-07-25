@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Remove unused field" />
+    <list default="true" id="3f39a48a-27d7-4a4a-a5d3-0fc74885c220" name="Changes" comment="Simplify if/else in isValidMove" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +158,42 @@
       <option name="project" value="LOCAL" />
       <updated>1658753628651</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Reuse random">
+      <created>1658753740073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753740073</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add private Coords constructor">
+      <created>1658753839747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753839747</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add private Coords constructor">
+      <created>1658753860775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753860775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Optimize imports">
+      <created>1658753896028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753896028</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Simplify if/else in isValidMove">
+      <created>1658753974074</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753974074</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +213,11 @@
     <MESSAGE value="Fix sonar target branch" />
     <MESSAGE value="Use java 17 for sonar build" />
     <MESSAGE value="Remove unused field" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused field" />
+    <MESSAGE value="Reuse random" />
+    <MESSAGE value="Add private Coords constructor" />
+    <MESSAGE value="Optimize imports" />
+    <MESSAGE value="Simplify if/else in isValidMove" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplify if/else in isValidMove" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

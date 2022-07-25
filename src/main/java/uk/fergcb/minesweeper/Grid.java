@@ -13,10 +13,13 @@ public class Grid {
     private static final String FLAG = "F";
     private static final String EMPTY = ".";
 
-    private final int width, height, mineCount;
+    private final int width;
+    private final int height;
+    private final int mineCount;
     private final Tile[][] tiles;
 
-    public boolean gameOver, gameWon;
+    private boolean gameOver;
+    private boolean gameWon;
 
     public Grid(int width, int height, int mineCount) {
         this.width = width;
@@ -160,6 +163,14 @@ public class Grid {
                 queue.add(next);
             }
         }
+    }
+
+    /**
+     * Check whether the game has been won
+     * @return the value of the gameWon field
+     */
+    public boolean isGameWon () {
+        return gameWon;
     }
 
     /**

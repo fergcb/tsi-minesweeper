@@ -5,7 +5,9 @@ public enum Difficulty {
     MEDIUM(10, 10, 20, Text.yellow("Medium")),
     HARD(25, 25, 150, Text.red("Hard"));
 
-    public final int width, height, mineCount;
+    private final int width;
+    private final int height;
+    private final int mineCount;
     public final String consoleName;
 
     Difficulty(int width, int height, int mineCount, String consoleName) {
@@ -13,5 +15,17 @@ public enum Difficulty {
         this.height = height;
         this.mineCount = mineCount;
         this.consoleName = consoleName;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public int getMineCount() {
+        return mineCount;
     }
 }

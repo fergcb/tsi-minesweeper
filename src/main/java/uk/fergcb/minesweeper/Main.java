@@ -28,7 +28,7 @@ public class Main {
         for (Difficulty difficulty : Difficulty.values()) {
             System.out.printf(
                     "%s (%d x %d, %d mines)\n",
-                    difficulty.consoleName, difficulty.width, difficulty.height, difficulty.mineCount
+                    difficulty.consoleName, difficulty.getWidth(), difficulty.getHeight(), difficulty.getMineCount()
             );
         }
 
@@ -44,7 +44,7 @@ public class Main {
 
         Difficulty difficulty = Difficulty.valueOf(diffString);
 
-        return new Grid(difficulty.width, difficulty.height, difficulty.mineCount);
+        return new Grid(difficulty.getWidth(), difficulty.getHeight(), difficulty.getMineCount());
     }
 
     /**
@@ -63,7 +63,7 @@ public class Main {
         } while (!grid.isComplete());
 
         grid.prettyPrint(true);
-        if (grid.gameWon) System.out.println("You won the game!");
+        if (grid.isGameWon()) System.out.println("You won the game!");
         else System.out.println("You stepped on a mine!");
 
     }
